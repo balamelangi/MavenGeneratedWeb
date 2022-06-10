@@ -18,8 +18,4 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     goals: 'clean install'
-- task: SSH@0
-  inputs:
-    runOptions: 'commands'
-    commands: 'll'
-    readyTimeout: '20000'
+
