@@ -21,5 +21,5 @@ steps:
 - task: SSH@0
   inputs:
     runOptions: 'commands'
-    commands: 'tree'
+    commands: 'ls -l'
     readyTimeout: '20000'
